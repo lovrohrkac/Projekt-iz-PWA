@@ -1,0 +1,183 @@
+body{
+    display:flex;
+    flex-direction:column;
+}
+
+main {
+    margin-top:10%;
+    margin-bottom:5%;
+}
+
+header{
+    width:100%;
+    position:fixed;top:0;left:0;
+    display:flex;
+    flex-direction:column;
+    z-index:20;
+    background-color:white;
+}
+
+#logo  {
+    width:20%;
+    height:20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:1%;
+    padding-bottom:0.5%;
+}
+
+nav {
+    width:100%;
+    height:30%;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+    border-bottom:2%;
+    border-style: outset;
+}
+li {
+	float: left;
+    padding-left:3%;
+    padding-top:1%;
+    padding-bottom:1%;
+}
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+    }
+
+footer{
+    height:8%;
+    width:100%;
+    position:fixed;bottom:0;left:0;
+    z-index:20;
+    display:flex;
+    flex-direction:column;
+    border-bottom:2%;
+    border-style: inset;
+    font-weight:bold;
+    align-items:center;
+    justify-content: center;
+    font-size:large;
+    background-color: white;
+   
+}
+
+h1{
+    margin-left:10%;
+    text-decoration: underline;
+    }
+
+    h1 a {
+    color:black;
+        text-decoration:none;
+    }
+
+    #naslov{
+        margin-left:0%;
+        text-decoration: underline;
+        }
+
+    /*
+    nek ovo ispod bude resetka
+    */
+    .resetka { 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        margin-left:10%;
+        margin-right:10%;
+        height:auto;
+    }
+
+        /*
+    makni border i pozadinu
+    */
+    article {
+        width:30%;
+        margin-bottom:2%;
+        /*
+        border:1px solid;
+        background-color:  #9BBB59;
+        */
+        overflow:hidden;
+        max-height:40%;
+    }
+
+    h4 {
+
+        text-decoration:none;
+        text-transform: uppercase;
+    }
+
+    h4 a {
+        color:black;
+        text-decoration:none;
+    }
+
+    .resetka a {
+        color:black;
+        text-decoration:none;
+    }
+
+
+ 
+    
+     #slika {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        overflow: hidden;
+        object-fit: cover;
+        height: 30vw;
+        margin-bottom: 1%;
+        
+        }
+        
+
+        form {
+            margin-bottom:3%;
+            margin-left:3%;
+        }
+
+       .form-field {
+            margin-bottom:1%;
+        }
+
+    section {
+        margin-bottom:3%;
+    }
+
+    #clanak {
+        margin-bottom:10%;
+        margin-left:10%;
+        margin-right:10%;
+    }
+
+    #clanak h2 {
+        text-decoration:none;
+        margin-left:0%;
+    }
+
+    p.pform {
+        margin-left:3%;
+        color:red;
+    }
+
+
+    pre {
+        white-space: pre-wrap;
+        font-family:'Times New Roman', Times, serif;
+    }
